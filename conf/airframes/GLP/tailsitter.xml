@@ -36,7 +36,7 @@
       <module name="udp"/>
       <module name="radio_control" type="datalink"/>
       <module name="logger_file">
-        <define name="FILE_LOGGER_PATH" value="/home/ewoud/Documents"/>
+        <define name="FILE_LOGGER_PATH" value="/home/gervaselovellprescod/Documents/Logs"/>
       </module>
 
       <!--Switch advanced INDI scheduling functions on or off-->
@@ -300,7 +300,7 @@
 
   <section name="SIMULATOR" prefix="NPS_">
     <define name="ACTUATOR_NAMES" value="ele_left, ele_right, mot_right, mot_left" type="string[]"/>
-    <define name="JSBSIM_MODEL" value="cyclone" type="string"/>
+    <define name="JSBSIM_MODEL" value="tailsitterfl" type="string"/>
     <define name="SENSORS_PARAMS" value="nps_sensors_params_default.h" type="string"/>
     <define name="NO_MOTOR_MIXING" value="TRUE"/>
   </section>
