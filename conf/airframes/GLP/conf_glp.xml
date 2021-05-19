@@ -13,7 +13,7 @@
   <aircraft
    name="TILTPROP"
    ac_id="1"
-   airframe="airframes/GLP/tiltprop_skywalker.xml"
+   airframe="airframes/GLP/tiltprop_tailsitter.xml"
    radio="radios/T10CG_SBUS.xml"
    telemetry="telemetry/default_rotorcraft.xml"
    flight_plan="flight_plans/rotorcraft_basic.xml"
